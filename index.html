@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melodías Eternas - Canciones Personalizadas para Momentos Inolvidables</title>
+    <meta name="description"
+        content="Regala una canción personalizada en 24h. Perfecta para aniversarios, cumpleaños o momentos especiales. ¡Oferta exclusiva por tiempo limitado!">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://almalabsio.github.io/MelodiasEternas/">
+    <meta property="og:title" content="Melodías Eternas - Canciones Personalizadas que Emocionan">
+    <meta property="og:description"
+        content="Inmortaliza tu historia con una canción profesional escrita exclusivamente para ti. Entrega en 24 horas.">
+    <meta property="og:image" content="https://almalabsio.github.io/MelodiasEternas/hero-bg.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://almalabsio.github.io/MelodiasEternas/">
+    <meta property="twitter:title" content="Melodías Eternas - Canciones Personalizadas que Emocionan">
+    <meta property="twitter:description"
+        content="Inmortaliza tu historia con una canción profesional escrita exclusivamente para ti. Entrega en 24 horas.">
+    <meta property="twitter:image" content="https://almalabsio.github.io/MelodiasEternas/hero-bg.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎵</text></svg>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <canvas id="parallax-canvas"></canvas>
+    <header>
+        <nav class="container">
+            <div class="logo">Melodías<span>Eternas</span></div>
+            <ul class="nav-links">
+                <li><a href="#proceso">¿Cómo funciona?</a></li>
+                <li><a href="#oferta">Oferta Especial</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+            </ul>
+            <a href="#oferta" class="btn-primary small">¡Quiero mi canción!</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <a href="#mega-pack" class="badge-link">
+                    <div class="badge animate-pop">🔥 Oferta de Lanzamiento: 60% OFF</div>
+                </a>
+                <h1>El Regalo que se Escucha con el <span>Corazón</span></h1>
+                <p class="hero-subtext">No regales algo que se olvida. Inmortaliza tu historia, aniversario o cumpleaños
+                    con una canción profesional escrita exclusivamente para ti.</p>
+
+                <div class="cta-group">
+                    <a href="#mega-pack" class="btn-primary large">Aprovechar la Oferta <i
+                            class="fas fa-arrow-right"></i></a>
+                    <div class="trust-pill">
+                        <span class="stars">★★★★★</span>
+                        <span class="text">+500 historias cantadas</span>
+                    </div>
+                </div>
+
+                <div class="countdown-container">
+                    <p>La oferta termina en:</p>
+                    <div id="countdown">
+                        <div class="time-block">
+                            <span id="hours">05</span>
+                            <span>Horas</span>
+                        </div>
+                        <div class="time-block">
+                            <span id="minutes">42</span>
+                            <span>Min</span>
+                        </div>
+                        <div class="time-block">
+                            <span id="seconds">18</span>
+                            <span>Seg</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How it works Section -->
+        <section id="proceso" class="process">
+            <div class="container">
+                <h2 class="section-title">¿Cómo funciona?</h2>
+                <div class="process-steps">
+                    <div class="step">
+                        <div class="step-num">1</div>
+                        <h3>Cuéntanos tu historia</h3>
+                        <p>Dinos para quién es y qué quieres expresar.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">2</div>
+                        <h3>Componemos la magia</h3>
+                        <p>Nuestros músicos profesionales crean tu canción única.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">3</div>
+                        <h3>Recíbela en 24h</h3>
+                        <p>Te enviamos tu canción lista para emocionar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problems Section -->
+        <section class="problems">
+            <div class="container">
+                <h2 class="section-title">¿Cansado de los regalos de siempre?</h2>
+                <div class="problem-grid">
+                    <div class="problem-card">
+                        <div class="icon">🎁</div>
+                        <h3>Regalos Genéricos</h3>
+                        <p>Las flores se marchitan, los chocolates se acaban. Una canción vive para siempre.</p>
+                    </div>
+                    <div class="problem-card">
+                        <div class="icon">⌚</div>
+                        <h3>Falta de Tiempo</h3>
+                        <p>Quieres algo especial pero no sabes por dónde empezar. Nosotros lo hacemos por ti.</p>
+                    </div>
+                    <div class="problem-card">
+                        <div class="icon">💬</div>
+                        <h3>Palabras Difíciles</h3>
+                        <p>A veces no sabemos cómo decir lo que sentimos. Dejemos que la música hable.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Offer Section (Pricing) -->
+        <section id="oferta" class="pricing">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Una Oferta Irresistible (Solo por hoy)</h2>
+                    <p>Queremos que nadie se quede sin su canción. Por eso hemos creado este paquete único.</p>
+                </div>
+
+                <div class="pricing-container">
+                    <!-- Standard (Hidden or anchor for reference) -->
+                    <div class="pricing-card standard">
+                        <h3>1 Canción Individual</h3>
+                        <div class="price-old">$150,000 COP</div>
+                        <div class="price-current">$80,000 COP</div>
+                        <p class="save">Ahorras $70,000</p>
+                        <ul class="features">
+                            <li>Letra personalizada</li>
+                            <li>Grabación profesional</li>
+                            <li>Entrega en 24 horas</li>
+                        </ul>
+                        <a href="https://wa.me/573102676627" class="btn-secondary">Ordenar Ahora</a>
+                    </div>
+
+                    <!-- BEST VALUE PACK -->
+                    <div id="mega-pack" class="pricing-card featured animate-pulse-glow">
+                        <div class="best-value-ribbon">MÁS POPULAR</div>
+                        <h3>Mega Pack 3 Canciones</h3>
+                        <p class="subtitle">Perfecto para Aniversario + Cumpleaños + Sorpresa</p>
+                        <div class="price-old">$450,000 COP</div>
+                        <div class="price-current">$100,000 COP</div>
+                        <p class="save-mega">¡AHORRAS $350,000!</p>
+
+                        <div class="scarcity-warning">
+                            ⚠️ Quedan solo <strong id="stock-count">18</strong> paquetes disponibles
+                        </div>
+
+                        <ul class="features">
+                            <li><strong>3 Canciones</strong> completas</li>
+                            <li>Letras 100% originales</li>
+                            <li>Diferentes géneros a elegir</li>
+                            <li>Video con letra (Lyric Video)</li>
+                            <li><strong>Entrega en 24 horas</strong></li>
+                        </ul>
+                        <a href="https://wa.me/573102676627?text=quiero%20adquirir%20el%20Mega%20pack"
+                            class="btn-primary pulse">¡SÍ! QUIERO EL MEGA PACK</a>
+                        <p class="guarantee">✅ Garantía de satisfacción total</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Audio Samples Section -->
+        <section class="samples">
+            <div class="container">
+                <h2 class="section-title">Escucha cómo suena la magia</h2>
+                <p style="text-align: center; margin-bottom: 40px;">Estos son solo ejemplos reales de nuestro trabajo.
+                    Tu canción puede tener el ritmo y estilo que tú elijas.</p>
+                <div class="samples-grid">
+                    <div class="sample-card material-card">
+                        <div class="card-glow"></div>
+                        <div class="audio-icon"><i class="fas fa-music"></i></div>
+                        <h3>Abrázame</h3>
+                        <p>Balada Personalizada</p>
+                        <div class="custom-audio-wrapper">
+                            <audio controls class="premium-player">
+                                <source src="Abrázame.m4a" type="audio/mp4">
+                                Tu navegador no soporta el audio.
+                            </audio>
+                        </div>
+                    </div>
+                    <div class="sample-card material-card">
+                        <div class="card-glow"></div>
+                        <div class="audio-icon"><i class="fas fa-heart"></i></div>
+                        <h3>Paloma Mía</h3>
+                        <p>Ritmo Romántico</p>
+                        <div class="custom-audio-wrapper">
+                            <audio controls class="premium-player">
+                                <source src="Paloma Mía.mp3" type="audio/mpeg">
+                                Tu navegador no soporta el audio.
+                            </audio>
+                        </div>
+                    </div>
+                    <div class="sample-card material-card">
+                        <div class="card-glow"></div>
+                        <div class="audio-icon"><i class="fas fa-star"></i></div>
+                        <h3>Dos años contigo</h3>
+                        <p>Especial de Aniversario</p>
+                        <div class="custom-audio-wrapper">
+                            <audio controls class="premium-player">
+                                <source src="Dos años contigo.mp3" type="audio/mpeg">
+                                Tu navegador no soporta el audio.
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section id="testimonios" class="testimonials">
+            <div class="container">
+                <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+                <div class="testimonial-slider">
+                    <div class="testimonial-card">
+                        <p>"Fue el mejor regalo de aniversario. Mi esposa lloró de la emoción. ¡Gracias por capturar
+                            nuestra historia tan bien!"</p>
+                        <div class="author">- Carlos M.</div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"Increíble la rapidez y la calidad. La canción de cumpleaños para mi mamá fue el centro de la
+                            fiesta."</p>
+                        <div class="author">- Lucía R.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="final-cta">
+            <div class="container">
+                <h2>No dejes pasar esta oportunidad</h2>
+                <p>El precio volverá a $150,000 muy pronto. Crea un recuerdo que durará décadas.</p>
+                <a href="#oferta" class="btn-primary large">Personalizar mi Canción Ahora</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">Melodías<span>Eternas</span></div>
+                    <p>Expertos en crear legados musicales.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="#">Términos</a></li>
+                        <li><a href="#">Privacidad</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2024 Melodías Eternas. Todos los derechos reservados.
+            </div>
+        </div>
+        <div class="whatsapp-float">
+            <a href="https://wa.me/573102676627?text=Me%20gustaría%20tener%20mi%20canción%20personalizada"
+                target="_blank">
+                <i class="fab fa-whatsapp"></i>
+                <span>Hablar con un experto</span>
+            </a>
+        </div>
+
+        <!-- Notification Toast -->
+        <div id="notification" class="notification-toast">
+            <div class="notif-icon">🔥</div>
+            <div class="notif-content">
+                <p id="notif-text"></p>
+                <span>Hace un momento</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
